@@ -1,0 +1,16 @@
+www.onet.pl
+za pierwszym razem wszystkie hopy idą przez USA. nie wszystkie routery odpowiedziały.
+za drugim razem hopy idą przez Francję, ale ostatnia destynacja jest taka sama.
+
+docelowo informacja trafia do cloudfront.net, która należy do AWS czyli Amazona
+średni czas odpowiedzi to 16 ms, dwa razy nie uzyskano żadnych informacji
+
+www.nasa.com
+tracert domeny nasa wydaje sie być bardziej stabilny, przy 6 próbach za każdym razem hopy idą przez routery w USA, ale ostatecznie trafiają do Kanady.
+Ani razu nie uzyskałem straty danych, wszystkie hopki widoczne.
+
+
+www.goggle.com
+taka domena nie istnieje. Bardzo możliwe że w celu zapobiegania podszywania się pod google taka domena została wyłączona z użycia.
+
+
