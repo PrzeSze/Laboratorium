@@ -1,9 +1,16 @@
 Wielkość pliku: 1 GB
 Przepustowość: 600 Mb/s
 
+//zmieiam GB na MB
 1 GB = 1024 MB
+
+//zmieniam bajty na bity
 1024 MB * 8 = 8192 Mb
 
+//dzielę rozmiar pliku w bitach na przepustowość
 8192 / 600 = 13,65 sekund
 
+//zwiększam o 1% narzutu
+13,65 * 1,01 = 13,79 sekund
 
+Odp: Czas potrzebny do pobrania pliku o wielkości 1GB przy przepustowości 600 Mb/s powinien wynieść około 13,79 sekundy.
