@@ -3,3 +3,7 @@ Przepustowość: 600 Mb/s
 
 1 GB = 1024 MB
 1024 MB * 8 = 8192 Mb
+
+8192 / 600 = 13,65 sekund
+
+
