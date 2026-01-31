@@ -1,0 +1,30 @@
+Jakie dodatkowe typy zdarzeń (Event Types) są wyświetlane?
+Ogólnie mogą być ARP, BGP, DHCP, DNS, EIGRP, HSRP, ICMP, OSPF, RIP, DHCPvp, EIGRPv6, HSRPv6, ICMPv6, NDP, OSPFv6, RIPng
+ACL, Bluetooth, CAPWAP, CDP, DTP, EAPOL, FTP, H.323, HTTP, HTTPS, IEC, IPSec, ISAKMP, IoT, IoTTCP, LACP, LLDP, MODBUS, Meraki, 
+NETFLOW, NTP, PAgP, POP3, PPP, PPPoED, PTP, Profinet, RADIUS, REP, RTP, SCCP, SMTP, SNMP, SSH, STP, SYSLOG, TACACS, TCP, TFTP, 
+Telnet, UDP, USB, VTP
+ale w naszym przykładzie transmisji pojawiają się dodatkowo tylko DNS i TCP
+
+Kliknij zakładkę Outbound PDU Details. Jakie informacje podane są w sekcji NAME: DNS QUERY?
+www.osi.local
+
+Kliknij ostatni kolorowy kwadrat DNS Info na liście zdarzeń. Które urządzenie jest wyświetlane?
+PC
+
+Jaka jest wartość wyświetlona obok ADDRESS: w sekcji DNS ANSWER zakładki (Inbound PDU Details)?
+type 1, class 2, ttl 86400, lenght 4, ip: 192.168.1.2
+
+Zaznacz Layer 4 w zakładce OSI Model. Na podstawie numerowanej listy bezpośrednio
+poniżej obszarów In Layers i Out Layers napisz jakie informacje wyświetlone są w punkcie 4 i 5?
+4. The TCP connection is successful
+5. The device sets the connection state to ESTABLISHED.
+
+Kliknij ostatnie zdarzenie TCP. Zaznacz Layer 4 w zakładce OSI Model. Przeanalizuj kroki opisane
+bezpośrednio pod obszarami In Layers i Out Layers. W oparciu o informacje zawarte w ostatniej pozycji
+na liście (powinna być pozycja 4) napisz jakie jest przeznaczenie tego zdarzenia?
+4. The TCP segment has the expected ACK numer. The device pops the last sent segment from the buffer.
+ACK oznacza że odbiorca pakietu TCP potwierdza otrzymanie wysłanych danych. Informacja z bufora wysyłającego jest usuwana. Jeśli nie było by ACK to dzięki informacji zachowanej w buforze można powtórzyć przesłanie informacji, czyli wpływa to na niezawodność i płynność przesyłu informacji.
+
+Na podstawie informacji, która została sprawdzona podczas przechwytywania w Packet Tracer, napisz jaki
+numer portu ma, nasłuchujący żądań stron WWW serwer (Web Server)?
+80

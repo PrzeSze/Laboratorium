@@ -1,0 +1,8 @@
+1. Gdzie znajdują się parametry w metodzie GET? 
+Parametry znajdują się w adresie URL po znaku zapytania
+
+2. Czy są one szyfrowane? 
+w protokole http nie są szyfrowane. Są szyfrowane w protokole https, ale w transmisji, lokalnie nadal są widoczne
+
+3. Jaka jest różnica między GET a POST w miejscu przesyłania danych?
+W GET dane są w URL a w POST w treści żądania HTTP

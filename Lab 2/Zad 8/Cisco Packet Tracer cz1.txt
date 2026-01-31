@@ -1,0 +1,38 @@
+Jaki tekst wyświetlany jest obok etykiety Layer 7?
+http
+
+Jakie informacje wyświetlone są w ponumerowanych krokach bezpośrednio poniżej pól In Layers i Out Layers?
+To są kolejne warstwy z modelu komunikacji OSI, od 7 do 1
+
+Jaka jest wartość portu docelowego (Dest Port)?
+80
+
+Jaka jest wartość docelowego adresu IP (Dst IP)?
+192.168.1.2
+
+Jakie informacje wyświetlone są na tej warstwie?
+Adresy mac: docelowy i źródłowy
+
+Jakie są wspólne informacje wymienione w sekcji IP szczegółów PDU (PDU Details) w porównaniu do
+informacji wymienionych w zakładce OSI Model? Z którą warstwą jest to związane?
+Source IP i destination IP, czyli warstwa sieciowa
+
+Jakie są wspólne informacje wymienione w sekcji TCP szczegółów PDU (PDU Details) w porównaniu do
+informacji wymienionych w zakładce OSI Model? Z którą warstwą jest to związane?
+Source port i destination port, czyli warstwa transportowa
+
+Jaka jest wartość pola Host wymienionego w sekcji HTTP szczegółów PDU (PDU Details)? Z którą
+warstwą z zakładki OSI Model będzie ta informacja związana?
+www.osi.local, warstwa 7 - aplikacji
+
+Porównując informacje wyświetlane w kolumnie In Layers z tymi w kolumnie Out Layers, jakie są między
+nimi główne różnice?
+obiekty docelowe (IP, port, MAC) stają się źródłowymi a źródłowe docelowymi
+
+Kliknij zakładkę Outbound PDU Details . Przewiń w dół do sekcji HTTP.
+Jaka jest pierwsza linia wyświetlana w wiadomości HTTP?
+HTTP Data:Connection: close
+
+Kliknij ostatni kolorowy kwadrat w kolumnie Info. Ile zakładek zostało wyświetlonych i dlaczego?
+Bo ostatnim krokiem jest odbiór informacji już bez wysyłania czegokolwiek, czyli będzie tylko inbound, tak, jak na starcie było tylko outbound.
+
