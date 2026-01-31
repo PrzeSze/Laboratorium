@@ -1,0 +1,8 @@
+Zadanie nr 2
+
+1. Wejdź na stronę
+https://learngitbranching.js.org/?locale=pl
+
+2. Przejdź 1 level (3 zagadnienia) zapisując screeny na github.
+
+3. Jeśli skończyłeś zgłoś to prowadzącemu.
