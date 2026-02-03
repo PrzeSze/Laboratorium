@@ -1,0 +1,319 @@
+﻿Microsoft Windows [Version 10.0.26100.7623]
+(c) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+
+C:\Users\NanoNapierdzielator>cd ~/Desktop
+System nie może odnaleźć określonej ścieżki.
+
+C:\Users\NanoNapierdzielator>git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   restore    Restore working tree files
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   diff       Show changes between commits, commit and working tree, etc
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   backfill   Download missing objects in a partial clone
+   branch     List, create, or delete branches
+   commit     Record changes to the repository
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   reset      Reset current HEAD to the specified state
+   switch     Switch branches
+   tag        Create, list, delete or verify tags
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\NanoNapierdzielator>dir
+ Volume in drive C is OS
+ Volume Serial Number is B618-7226
+
+ Directory of C:\Users\NanoNapierdzielator
+
+10.01.2026  16:36    <DIR>          .
+28.12.2025  12:51    <DIR>          ..
+26.10.2025  15:34               183 .gitconfig
+10.09.2025  16:26    <DIR>          .jdks
+25.05.2025  14:43    <DIR>          .ms-ad
+26.10.2025  16:30               204 .packettracer
+15.06.2025  16:52    <DIR>          .VirtualBox
+22.05.2025  00:12    <DIR>          ansel
+27.09.2025  11:01    <DIR>          Application Data
+26.10.2025  16:32    <DIR>          Cisco Packet Tracer 9.0.0
+23.05.2025  16:21    <DIR>          Contacts
+10.01.2026  09:13    <DIR>          Documents
+25.01.2026  15:32    <DIR>          Downloads
+17.12.2025  19:21    <DIR>          Favorites
+10.01.2026  16:49    <DIR>          IdeaProjects
+10.01.2026  16:36    <DIR>          IdeaSnapshots
+23.05.2025  16:21    <DIR>          Links
+28.09.2025  08:11    <DIR>          Microsoft
+23.05.2025  16:21    <DIR>          Music
+11.12.2025  18:44    <DIR>          OneDrive
+25.05.2025  16:26    <DIR>          Pictures
+23.05.2025  16:21    <DIR>          Saved Games
+25.05.2025  10:39    <DIR>          Searches
+17.12.2025  19:22    <DIR>          Videos
+               2 File(s)            387 bytes
+              22 Dir(s)     758 460 416 bytes free
+
+C:\Users\NanoNapierdzielator>cd Desktop
+System nie może odnaleźć określonej ścieżki.
+
+C:\Users\NanoNapierdzielator>cd d:
+D:\
+
+C:\Users\NanoNapierdzielator>cd d:\
+
+C:\Users\NanoNapierdzielator>cd D:\
+
+C:\Users\NanoNapierdzielator>D:\
+'D:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\NanoNapierdzielator>D:
+
+D:\>cd
+D:\
+
+D:\>dir
+ Volume in drive D is Dane
+ Volume Serial Number is 662E-7580
+
+ Directory of D:\
+
+01.04.2022  20:00            58 339 010422_210045.csv
+01.04.2022  20:03           104 816 010422_210304.csv
+23.05.2025  09:19           660 222 aaa.xml
+04.09.2025  10:47           140 650 bookmarks_9_4_25.html
+01.04.2022  20:01           161 283 CA_historia_transakcji_210100_010422.pdf
+06.01.2026  14:50    <DIR>          Hobby
+01.12.2006  22:37           904 704 msdia80.dll
+06.01.2026  14:50    <DIR>          Ola
+25.01.2026  13:00    <DIR>          OneDrive
+08.11.2025  11:09    <DIR>          Pendrive mieszkanie - kopia zapasowa
+19.08.2025  18:21       110 259 994 Pendrive mieszkanie - kopia zapasowa.zip
+06.01.2026  14:50    <DIR>          Pobrane
+23.01.2026  20:21    <DIR>          Uczelnia
+04.06.2025  14:26    <DIR>          VM
+09.08.2025  12:51    <DIR>          z google drive
+24.11.2025  21:27    <DIR>          Zdjęcia
+               7 File(s)    112 290 008 bytes
+               9 Dir(s)  27 100 532 736 bytes free
+
+D:\>OneDrive
+'OneDrive' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\>cd OneDrive
+
+D:\OneDrive>cd Desktop
+
+D:\OneDrive\Desktop>mkdir cwiczenia
+
+D:\OneDrive\Desktop>cd cwiczenia
+
+D:\OneDrive\Desktop\cwiczenia>mkdir IO
+
+D:\OneDrive\Desktop\cwiczenia>cd IO
+
+D:\OneDrive\Desktop\cwiczenia\IO>git int
+git: 'int' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+D:\OneDrive\Desktop\cwiczenia\IO>git iit
+git: 'iit' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+D:\OneDrive\Desktop\cwiczenia\IO>git init
+Initialized empty Git repository in D:/OneDrive/Desktop/cwiczenia/IO/.git/
+
+D:\OneDrive\Desktop\cwiczenia\IO>git config user.name
+PrzeSze
+
+D:\OneDrive\Desktop\cwiczenia\IO>git config user.mail
+
+D:\OneDrive\Desktop\cwiczenia\IO>git config user.mail i.am.2ndo@gmail.com
+
+D:\OneDrive\Desktop\cwiczenia\IO>git config user.mail
+i.am.2ndo@gmail.com
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        main.cpp
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\OneDrive\Desktop\cwiczenia\IO>git add mail.cpp
+fatal: pathspec 'mail.cpp' did not match any files
+
+D:\OneDrive\Desktop\cwiczenia\IO>git add main.cpp
+warning: in the working copy of 'main.cpp', LF will be replaced by CRLF the next time Git touches it
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   main.cpp
+
+
+D:\OneDrive\Desktop\cwiczenia\IO>git log
+fatal: your current branch 'master' does not have any commits yet
+
+D:\OneDrive\Desktop\cwiczenia\IO>git commit -m "dodano nowy plik"
+[master (root-commit) 53e79f4] dodano nowy plik
+ 1 file changed, 9 insertions(+)
+ create mode 100644 main.cpp
+
+D:\OneDrive\Desktop\cwiczenia\IO>git log
+commit 53e79f4f6a3033a055e321bfb99c3e23b83eb9cb (HEAD -> master)
+Author: PrzeSze <78003@student-afm.edu.pl>
+Date:   Sun Jan 25 18:24:23 2026 +0100
+
+    dodano nowy plik
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   main.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\OneDrive\Desktop\cwiczenia\IO>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+D:\OneDrive\Desktop\cwiczenia\IO>git add, git commit
+git: 'add,' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+D:\OneDrive\Desktop\cwiczenia\IO>git add main.cpp
+warning: in the working copy of 'main.cpp', LF will be replaced by CRLF the next time Git touches it
+
+D:\OneDrive\Desktop\cwiczenia\IO>git commit -m "Nowa wersja dodana"
+[master f5482cb] Nowa wersja dodana
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\OneDrive\Desktop\cwiczenia\IO>git add main.cpp
+warning: in the working copy of 'main.cpp', LF will be replaced by CRLF the next time Git touches it
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   main.cpp
+
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   main.cpp
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        struktura.cpp
+
+
+D:\OneDrive\Desktop\cwiczenia\IO>git add struktura.cpp
+warning: in the working copy of 'struktura.cpp', LF will be replaced by CRLF the next time Git touches it
+
+D:\OneDrive\Desktop\cwiczenia\IO>git commit
+hint: Waiting for your editor to close the file... unix2dos: converting file D:/OneDrive/Desktop/cwiczenia/IO/.git/COMMIT_EDITMSG to DOS format...
+dos2unix: converting file D:/OneDrive/Desktop/cwiczenia/IO/.git/COMMIT_EDITMSG to Unix format...
+[master e7e20d6] Dodanie pliku struktura
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+ create mode 100644 struktura.cpp
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\OneDrive\Desktop\cwiczenia\IO>git rm struktura.cpp
+rm 'struktura.cpp'
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    struktura.cpp
+
+
+D:\OneDrive\Desktop\cwiczenia\IO>git commit
+hint: Waiting for your editor to close the file... unix2dos: converting file D:/OneDrive/Desktop/cwiczenia/IO/.git/COMMIT_EDITMSG to DOS format...
+dos2unix: converting file D:/OneDrive/Desktop/cwiczenia/IO/.git/COMMIT_EDITMSG to Unix format...
+Aborting commit due to empty commit message.
+
+D:\OneDrive\Desktop\cwiczenia\IO>git commit "usunięcie struktura.cpp"
+error: pathspec 'usunięcie struktura.cpp' did not match any file(s) known to git
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    struktura.cpp
+
+
+D:\OneDrive\Desktop\cwiczenia\IO>git commit -m "usuniecie pliku"
+[master 322eba4] usuniecie pliku
+ 1 file changed, 10 deletions(-)
+ delete mode 100644 struktura.cpp
+
+D:\OneDrive\Desktop\cwiczenia\IO>git status
+On branch master
+nothing to commit, working tree clean
+
+D:\OneDrive\Desktop\cwiczenia\IO>
