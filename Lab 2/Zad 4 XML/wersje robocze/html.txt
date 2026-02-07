@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<zarejestrowani>
+	<osoba id="1">
+		<imię>Janusz</imię>
+		<nazwisko>Kowalski</nazwisko>
+		<płeć>M</płeć>
+		<data_rejestracji>1.02.2023</data_rejestracji>
+		<status>aktywny</status>
+	</osoba>
+	<osoba id="2">
+	...
+	</osoba>
+</zarejestrowani>
+

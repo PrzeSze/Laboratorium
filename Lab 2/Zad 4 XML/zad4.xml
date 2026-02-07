@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE zarejestrowani SYSTEM "osoby.dtd">
+<zarejestrowani>
+    <osoba id="o1">
+        <imie>Janusz</imie>
+        <nazwisko>Kowalski</nazwisko>
+        <plec>M</plec>
+        <wiek>40</wiek>
+        <data_rejestracji>2023-02-01</data_rejestracji>
+        <status>aktywny</status>
+    </osoba>
+
+    <osoba id="o2">
+        <imie>Anna</imie>
+        <nazwisko>Nowak</nazwisko>
+        <plec>K</plec>
+        <wiek>28</wiek>
+        <data_rejestracji>2023-03-15</data_rejestracji>
+        <status>nieaktywny</status>
+    </osoba>
+</zarejestrowani>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osoba>
+    <imie>Anna</imie>
+    <nazwisko>Nowak</nazwisko>
+    <plec>Kobieta</plec>
+    <wiek>28</wiek>
+</osoba>

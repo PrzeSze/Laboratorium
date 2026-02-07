@@ -1,0 +1,9 @@
+<!ELEMENT zarejestrowani (osoba+)>
+<!ELEMENT osoba (imie, nazwisko, plec, wiek, data_rejestracji, status)>
+<!ATTLIST osoba id ID #REQUIRED>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT plec (#PCDATA)>
+<!ELEMENT wiek (#PCDATA)>
+<!ELEMENT data_rejestracji (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
